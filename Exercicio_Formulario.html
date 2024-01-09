@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta chartset="utf-8">
+        <title>Formulário</title>
+    </head>
+    <body>
+        <main>
+            <h1>Amazon.es</h1>
+            <h2>Criar conta</h2>
+            <form method="post" action="Exercicio_Formulario.html">
+                <div>
+                    <label>
+                        O seu nome
+                        <input type="text" name="full_name" placeholder="Nome e Apelido">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Número de telemóvel ou email
+                        <input type="text" name="Phone_email">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Password
+                        <input type="password" name="password" placeholder="Pelo menos 6 caracteres" minlength="6">
+                        As palavras-passe têm de ter, pelo menos, 6 carateres.  
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Introduza novamente a password
+                        <input type="password" name="repeat_password" minlength="6">
+                    </label>
+                </div>
+                <div>
+                <button type="submit">continuar</button>
+                </div>
+                <p>
+                    <label>
+                        <input type="checkbox" name="agreement">
+                        Ao criar uma conta, concorda com as condições de utilização e venda da Amazon. Consulte o nosso aviso de privacidade, o nosso aviso de cookies e o nosso aviso sobre publicidade baseada nos interesses dos utilizadores.
+                    </label>
+                </p>
+            </form>
+            <section>
+                <form>
+                    <h2>Pergunta do dia</h2>
+                    <form method="post" action="Exercicio_Formulario.html">
+                    <p>Normalmente, costuma beber água de uma garrafa reutilizável ou compra garrafas de plástico?</p>
+                    <div>
+                        <label>
+                           <input type="radio" name="vote" value="1">
+                           Tento usar (quase sempre) uma garrafa reutilizável.
+                        </label>
+                        <label>
+                            <input type="radio" name="vote" value="2">
+                            Compro garrafas de plástico.
+                        </label>
+                    </div>
+                    <div>
+                        <button type="submit">Votar</button>
+                    </div>
+                </form>
+            <section>
+        </main>
+    </body>
+</html>

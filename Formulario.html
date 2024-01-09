@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulários</title>
+    </head>
+    <body>
+        <main>
+            <h1>Criar Conta</h1>
+        <!--Quando o formulário envia informação para o URL especificadona action, precisade declarar qual o método de envio.
+        Quase sempre é post-->
+            <form method="post" action="Formulario.html">
+                <div>
+                    <label>                        
+                        Nome Completo
+                        <input type="text" name="full_name">
+                    </label>             
+                </div>
+                <div>
+                    <label>
+                        Morada
+                        <input type="text" name="adress">
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Palavra-passe
+                        <input type="password" name="password">
+                    </label>
+                </div>
+                <div>
+                    <h2>Qual é o teu super hero preferido?</h2>
+                    <label>
+                        <input type="radio" name="favorite_superhero" value="1">                       Homem-Aranha
+                    </label>
+                    <label>
+                        <input type="radio" name="favorite_superhero" value="2">
+                        Wolverine
+                    </label>
+                    <label>
+                        <input type="radio" name="favorite_superhero" value="3">
+                        Batman
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        Nacionalidade
+                        <select name="country">
+                            <option>Portuguesa</option>
+                            <option>Brasileira</option>
+                            <option>Angolana</option>
+                            <option>Francesa</option>
+                            <option>Espanhola</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" name="agress">
+                        Concordo com vender a minha alma a Google?
+                    </label>
+                </div>
+                <div>
+                    <button type="submit">Concluir</button>
+                </div>
+            </form>
+        <!--
+        Camadas num web site:
+            Frontend
+                Semântica (HTML)
+            Backend
+                Aplicação (PHP)
+        Formulário establecem comunicação entre HTML e a aplicação
+        Enciado informação que o utilizador precise de preencher
+        -->
+        </main>
+    </body>
+</html>
