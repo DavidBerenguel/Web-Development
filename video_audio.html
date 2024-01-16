@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <title>Vídeo e Áudio</title>
+    </head>
+    <body>
+        <!--
+            Existe um conceito media type ou MINE type exemplos: 
+            application/pdf    audio/webm    image/png    text/html
+            Serve para declarar em que formato específico algo está
+        -->
+        <video controls autoplay muted><!--Podemos usar (Poster serve para meter uma tumbnail, controls serve para adicionar butões ao video, muted, autoplay...)-->
+            <source src="Media/small.ogv" type="video/ogv">
+            <source src="Media/small.webm" type="video/webm">
+            <source src="Media/samll.mp4" type="video/mp4">
+        </video>
+        <audio controls>
+            <source src="media/tub_20130906.mp3" type="audio/mpeg">
+            <source src="media/4Schubert_La_Abeille.ogg" type="audio/ogg">
+        </audio>
+    </body>
+</html>
